@@ -1,0 +1,1241 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM17 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM17 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008547: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c050: xthal_get_ccount in ROM
+--- 0x40008537: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40144c69: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:704
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014516d: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1175 (discriminator 1)
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ce: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:70
+--- 0x400d89a1: lcd_set_cursor at C:/Users/dell/wifi_scanner/main/lcd_driver.c:51
+--- 0x400d87ee: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:110
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014516a: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1175 (discriminator 1)
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d9450: gpio_set_level at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:239
+--- 0x400d88c8: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:69
+--- 0x400d89a1: lcd_set_cursor at C:/Users/dell/wifi_scanner/main/lcd_driver.c:51
+--- 0x400d87ee: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:110
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014143c: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1185 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014118d: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1004 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ce: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:70
+--- 0x400d8972: lcd_clear at C:/Users/dell/wifi_scanner/main/lcd_driver.c:45
+--- 0x400d8777: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:87
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ce: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:70
+--- 0x400d89a1: lcd_set_cursor at C:/Users/dell/wifi_scanner/main/lcd_driver.c:51
+--- 0x400d87ee: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:110
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008a7b6: vPortClearInterruptMaskFromISR at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40089e6b: xQueueGenericSend at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1056
+--- 0x40082d39: lock_release_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:199
+--- 0x40082de9: _lock_release at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:206
+--- 0x40082e5a: __retarget_lock_release at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:341
+--- 0x4013ff11: __tz_unlock at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/tzlock.c:50
+--- 0x4013f16b: localtime_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/lcltime_r.c:123
+--- 0x400d87d7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:106
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c050: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c050: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8875: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:82
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c053: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008a7b6: vPortClearInterruptMaskFromISR at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40089e6b: xQueueGenericSend at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1056
+--- 0x40082d39: lock_release_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:199
+--- 0x40082de9: _lock_release at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:206
+--- 0x400d5496: esp_time_impl_get_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/port/esp_time_impl.c:119
+--- 0x400d515f: adjust_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:53
+--- 0x400d528d: get_adjusted_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:93
+--- 0x40082ea9: _gettimeofday_r at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:173
+--- 0x4013fd4e: time at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/time.c:42 (discriminator 1)
+--- 0x400d87cd: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:105
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d941f: gpio_set_level at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:238 (discriminator 2)
+--- 0x400d887c: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:83
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ce: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:70
+--- 0x400d8972: lcd_clear at C:/Users/dell/wifi_scanner/main/lcd_driver.c:45
+--- 0x400d8777: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:87
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014143c: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1185 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40146c47: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1670
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014118d: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1004 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ce: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:70
+--- 0x400d8972: lcd_clear at C:/Users/dell/wifi_scanner/main/lcd_driver.c:45
+--- 0x400d8777: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:87
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40140c41: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:654
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008a5d0: xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:469
+--- 0x40085355: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) esp_crosscore_int_send at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/crosscore_int.c:111
+--- 0x40085395: esp_crosscore_int_send_yield at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/crosscore_int.c:120
+--- 0x4008c52e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x400d885d: app_main at C:/Users/dell/wifi_scanner/main/main.c:130 (discriminator 1)
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008a7b6: vPortClearInterruptMaskFromISR at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x4008a28c: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1777
+--- 0x40082cc0: lock_acquire_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:148
+--- 0x40082da9: _lock_acquire at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:157
+--- 0x400d528a: get_adjusted_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:92
+--- 0x40082ea9: _gettimeofday_r at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:173
+--- 0x4013fd4e: time at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/time.c:42 (discriminator 1)
+--- 0x400d87cd: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:105
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008a7b6: vPortClearInterruptMaskFromISR at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40089e6b: xQueueGenericSend at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1056
+--- 0x40082d39: lock_release_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:199
+--- 0x40082de9: _lock_release at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:206
+--- 0x400d5496: esp_time_impl_get_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/port/esp_time_impl.c:119
+--- 0x400d515f: adjust_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:53
+--- 0x400d528d: get_adjusted_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:93
+--- 0x40082ea9: _gettimeofday_r at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:173
+--- 0x4013fd4e: time at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/time.c:42 (discriminator 1)
+--- 0x400d87cd: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:105
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40142844: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1764
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40082eb2: _gettimeofday_r at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:173 (discriminator 1)
+--- 0x4013fd4e: time at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/time.c:42 (discriminator 1)
+--- 0x400d87cd: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:105
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000bfed: _xtos_set_intlevel in ROM
+--- 0x4008a7b6: vPortClearInterruptMaskFromISR at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40089e6b: xQueueGenericSend at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1056
+--- 0x40082d39: lock_release_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:199
+--- 0x40082de9: _lock_release at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:206
+--- 0x400d5496: esp_time_impl_get_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/port/esp_time_impl.c:119
+--- 0x400d515f: adjust_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:53
+--- 0x400d528d: get_adjusted_boot_time at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:93
+--- 0x40082ea9: _gettimeofday_r at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:173
+--- 0x4013fd4e: time at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/time.c:42 (discriminator 1)
+--- 0x400d87cd: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:105
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014143c: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1185 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400d9450: gpio_set_level at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:239
+--- 0x400d88c8: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:69
+--- 0x400d89a1: lcd_set_cursor at C:/Users/dell/wifi_scanner/main/lcd_driver.c:51
+--- 0x400d87ee: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:110
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ce: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:70
+--- 0x400d89a1: lcd_set_cursor at C:/Users/dell/wifi_scanner/main/lcd_driver.c:51
+--- 0x400d87ee: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:110
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40142839: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1761 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c053: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c053: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x401413f4: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1185 (discriminator 1)
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:109
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c050: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40140bdf: __ssprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:335
+--- 0x401476e9: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40082eb2: _gettimeofday_r at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/time.c:173 (discriminator 1)
+--- 0x4013fd4e: time at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/time.c:42 (discriminator 1)
+--- 0x400d87cd: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:105
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008a28c: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1777
+--- 0x4008a32e: xQueueTakeMutexRecursive at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:835
+--- 0x40082cb1: lock_acquire_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:146
+--- 0x40082db9: _lock_acquire_recursive at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:162
+--- 0x4000be35: _lock_acquire_recursive in ROM
+--- 0x40001fda: __env_lock in ROM
+--- 0x40001f49: _findenv_r in ROM
+--- 0x40001fc5: _getenv_r in ROM
+--- 0x4013ff55: _tzset_unlocked_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/tzset_r.c:30
+--- 0x4013ff21: _tzset_unlocked at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/tzset.c:115 (discriminator 1)
+--- 0x4013ef9b: localtime_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/lcltime_r.c:34
+--- 0x400d87d7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:106
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008c0c5: xTaskCheckForTimeOut at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4228
+--- 0x40082cb1: lock_acquire_generic at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:146
+--- 0x40082db9: _lock_acquire_recursive at C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/locks.c:162
+--- 0x4000be35: _lock_acquire_recursive in ROM
+--- 0x40001fda: __env_lock in ROM
+--- 0x40001f49: _findenv_r in ROM
+--- 0x40001fc5: _getenv_r in ROM
+--- 0x4013ff55: _tzset_unlocked_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/tzset_r.c:30
+--- 0x4013ff21: _tzset_unlocked at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/tzset.c:115 (discriminator 1)
+--- 0x4013ef9b: localtime_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/lcltime_r.c:34
+--- 0x400d87d7: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:106
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c050: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c3c9: memmove in ROM
+--- 0x40140bed: __ssprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:336
+--- 0x401476e9: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c053: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4014516d: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1175 (discriminator 1)
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c3c9: memmove in ROM
+--- 0x40140bed: __ssprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:336
+--- 0x401476e9: _svfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+--- 0x4013e85b: snprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/snprintf.c:85
+--- 0x400d87c0: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:98 (discriminator 4)
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008541: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88d4: lcd_send_command at C:/Users/dell/wifi_scanner/main/lcd_driver.c:71
+--- 0x400d89a1: lcd_set_cursor at C:/Users/dell/wifi_scanner/main/lcd_driver.c:51
+--- 0x400d87ee: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:110
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87f3: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:111
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c053: xthal_get_ccount in ROM
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88f0: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:77
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40008544: ets_delay_us in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x4000c04d: _xtos_return_from_exc in ROM
+--- 0x400d8893: lcd_pulse_enable at C:/Users/dell/wifi_scanner/main/lcd_driver.c:86
+--- 0x400d88bb: lcd_send_nibble at C:/Users/dell/wifi_scanner/main/lcd_driver.c:65
+--- 0x400d88ea: lcd_send_data at C:/Users/dell/wifi_scanner/main/lcd_driver.c:76
+--- 0x400d89b0: lcd_write_string at C:/Users/dell/wifi_scanner/main/lcd_driver.c:56
+--- 0x400d87c5: show_ap_on_lcd at C:/Users/dell/wifi_scanner/main/main.c:101
+--- 0x400d8858: app_main at C:/Users/dell/wifi_scanner/main/main.c:129
+--- 0x40154b43: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/app_startup.c:208
+--- 0x4008a41d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400dad36: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400db0f8: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x40083501: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40141019: _svfiprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1055
+--- 0x40140647: sniprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/sniprintf.c:80
+--- 0x4013f610: __strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:964
+--- 0x4013fd13: strftime at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/time/strftime.c:1489 (discriminator 1)
+--- 0x400d87e7: show_ap_

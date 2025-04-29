@@ -1,0 +1,220 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM17 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM17 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x4008af38: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d372f: uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/uart_hal_iram.c:27
+--- 0x4008af38: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4008af35: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+--- 0x4008bbc5: vTaskPlaceOnEventList at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x4008a300: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40135c85: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex/esp32/esp_coex_adapter.c:93
+--- 0x40105631: ieee80211_ioctl at ??:?
+--- 0x40106872: esp_wifi_scan_start at ??:?
+--- 0x400d8ab2: wifi_scan_networks at C:/Users/dell/wifi_scanner/main/wifi_scanner.c:24
+--- 0x400831ba: button_rescan_isr_handler at C:/Users/dell/wifi_scanner/main/main.c:39
+--- 0x40083782: gpio_isr_loop at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083812: gpio_intr_service at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40083531: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400885b4: esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:200
+[0m
+[0;33m--- 0x400885b1: esp_clk_utils_mspi_speed_mode_sync_before_cpu_freq_switching at ??:?
+--- 0x4008cf85: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xTaskIncrementTickOtherCores at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/freertos_tasks_c_additions.h:101
+--- 0x4008abdd: xPortSysTickHandler at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/port_systick.c:226
+--- 0x4008a90d: _frxt_timer_int at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:344
+--- 0x4008353a: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008af44: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d372f: uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/uart_hal_iram.c:27
+--- 0x4008af44: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x4008af41: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x4008bbc5: vTaskPlaceOnEventList at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x4008a300: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40135c85: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex/esp32/esp_coex_adapter.c:93
+--- 0x40105631: ieee80211_ioctl at ??:?
+--- 0x40106872: esp_wifi_scan_start at ??:?
+--- 0x400d8ab2: wifi_scan_networks at C:/Users/dell/wifi_scanner/main/wifi_scanner.c:24
+--- 0x400831ba: button_rescan_isr_handler at C:/Users/dell/wifi_scanner/main/main.c:39
+--- 0x40083782: gpio_isr_loop at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083812: gpio_intr_service at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40083531: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4008a686: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/spinlock.h:132
+---  (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+[0m
+[0;33m--- 0x4008a683: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/spinlock.h:132
+---  (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+--- 0x4008cf85: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xTaskIncrementTickOtherCores at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/freertos_tasks_c_additions.h:101
+--- 0x4008abdd: xPortSysTickHandler at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/port_systick.c:226
+--- 0x4008a90d: _frxt_timer_int at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:344
+--- 0x4008353a: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008af35: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d372f: uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/uart_hal_iram.c:27
+--- 0x4008af35: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4008af32: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183
+--- 0x4008bbc5: vTaskPlaceOnEventList at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x4008a300: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40135c85: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex/esp32/esp_coex_adapter.c:93
+--- 0x40105631: ieee80211_ioctl at ??:?
+--- 0x40106872: esp_wifi_scan_start at ??:?
+--- 0x400d8ab2: wifi_scan_networks at C:/Users/dell/wifi_scanner/main/wifi_scanner.c:24
+--- 0x400831ba: button_rescan_isr_handler at C:/Users/dell/wifi_scanner/main/main.c:39
+--- 0x40083782: gpio_isr_loop at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083812: gpio_intr_service at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40083531: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400885b4: esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:200
+[0m
+[0;33m--- 0x400885b1: esp_clk_utils_mspi_speed_mode_sync_before_cpu_freq_switching at ??:?
+--- 0x4008cf85: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xTaskIncrementTickOtherCores at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/freertos_tasks_c_additions.h:101
+--- 0x4008abdd: xPortSysTickHandler at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/port_systick.c:226
+--- 0x4008a90d: _frxt_timer_int at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:344
+--- 0x4008353a: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008af35: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d372f: uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/uart_hal_iram.c:27
+--- 0x4008af35: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4008af32: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183
+--- 0x4008bbc5: vTaskPlaceOnEventList at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x4008a300: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40135c85: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex/esp32/esp_coex_adapter.c:93
+--- 0x40105631: ieee80211_ioctl at ??:?
+--- 0x40106872: esp_wifi_scan_start at ??:?
+--- 0x400d8ab2: wifi_scan_networks at C:/Users/dell/wifi_scanner/main/wifi_scanner.c:24
+--- 0x400831ba: button_rescan_isr_handler at C:/Users/dell/wifi_scanner/main/main.c:39
+--- 0x40083782: gpio_isr_loop at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083812: gpio_intr_service at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40083531: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4008a68c: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/spinlock.h:133
+---  (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+[0m
+[0;33m--- 0x4008a689: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/spinlock.h:132
+---  (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+--- 0x4008cf85: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xTaskIncrementTickOtherCores at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/freertos_tasks_c_additions.h:101
+--- 0x4008abdd: xPortSysTickHandler at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/port_systick.c:226
+--- 0x4008a90d: _frxt_timer_int at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:344
+--- 0x4008353a: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008af3f: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d372f: uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/uart_hal_iram.c:27
+--- 0x4008af3f: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+[0m
+[0;33m--- 0x4008af3c: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 1)
+--- 0x4008bbc5: vTaskPlaceOnEventList at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x4008a300: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40135c85: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex/esp32/esp_coex_adapter.c:93
+--- 0x40105631: ieee80211_ioctl at ??:?
+--- 0x40106872: esp_wifi_scan_start at ??:?
+--- 0x400d8ab2: wifi_scan_networks at C:/Users/dell/wifi_scanner/main/wifi_scanner.c:24
+--- 0x400831ba: button_rescan_isr_handler at C:/Users/dell/wifi_scanner/main/main.c:39
+--- 0x40083782: gpio_isr_loop at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083812: gpio_intr_service at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40083531: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400885b4: esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:200
+[0m
+[0;33m--- 0x400885b1: esp_clk_utils_mspi_speed_mode_sync_before_cpu_freq_switching at ??:?
+--- 0x4008cf85: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xTaskIncrementTickOtherCores at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/freertos_tasks_c_additions.h:101
+--- 0x4008abdd: xPortSysTickHandler at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/port_systick.c:226
+--- 0x4008a90d: _frxt_timer_int at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:344
+--- 0x4008353a: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x400886af: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d35c3: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b505: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a44d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m
