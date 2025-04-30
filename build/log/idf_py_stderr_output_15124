@@ -1,0 +1,52 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM17 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM17 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008af0d: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d2a9b: uart_hal_write_txfifo at C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/uart_hal_iram.c:27
+--- 0x4008af0d: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183 (discriminator 3)
+[0m
+[0;33m--- 0x4008af0a: vListInsert at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/list.c:183
+--- 0x4008bb9d: vTaskPlaceOnEventList at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:3769 (discriminator 1)
+--- 0x4008a2d8: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/queue.c:1829
+--- 0x40132c49: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex/esp32/esp_coex_adapter.c:93
+--- 0x400f1059: ieee80211_ioctl at ??:?
+--- 0x400f219e: esp_wifi_scan_start at ??:?
+--- 0x400d7c1a: wifi_scan_networks at C:/Users/dell/wifi_scanner/main/wifi_scanner.c:24
+--- 0x40083192: button_rescan_isr_handler at C:/Users/dell/wifi_scanner/main/main.c:38
+--- 0x4008375a: gpio_isr_loop at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:466
+--- 0x400837ea: gpio_intr_service at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40083509: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40088687: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d292f: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b4dd: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a425: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40088595: xt_utils_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:223
+---  (inlined by) esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:232
+[0m
+[0;33m--- 0x40088592: xt_utils_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:216
+---  (inlined by) esp_cpu_compare_and_set at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:232
+--- 0x4008a661: spinlock_acquire at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/spinlock.h:132
+---  (inlined by) xPortEnterCriticalTimeout at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+--- 0x4008cf5d: vPortEnterCritical at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xTaskIncrementTickOtherCores at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/freertos_tasks_c_additions.h:101
+--- 0x4008abb5: xPortSysTickHandler at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/port_systick.c:226
+--- 0x4008a8e5: _frxt_timer_int at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:344
+--- 0x40083512: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/xtensa_vectors.S:1240
+--- 0x40088687: xt_utils_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/cpu.c:55
+--- 0x400d292f: esp_vApplicationIdleHook at C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/freertos_hooks.c:58
+--- 0x4008b4dd: prvIdleTask at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x4008a425: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

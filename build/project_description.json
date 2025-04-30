@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "wifi_scanner",
-    "project_version":    "1",
+    "project_version":    "569cf78-dirty",
     "project_path":       "C:/Users/dell/wifi_scanner",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.4.1",
     "build_dir":          "C:/Users/dell/wifi_scanner/build",

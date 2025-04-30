@@ -4,12 +4,13 @@
 #include "driver/gpio.h"
 #include <string.h>
 
-#define LCD_RS GPIO_NUM_14
-#define LCD_EN GPIO_NUM_27
-#define LCD_D4 GPIO_NUM_26
-#define LCD_D5 GPIO_NUM_25
-#define LCD_D6 GPIO_NUM_33
-#define LCD_D7 GPIO_NUM_32
+// Common pinout for 4-bit LCD interface - ADJUST THESE TO YOUR WIRING!
+#define LCD_RS GPIO_NUM_2
+#define LCD_EN GPIO_NUM_4  // Changed from BUTTON_NEXT
+#define LCD_D4 GPIO_NUM_16
+#define LCD_D5 GPIO_NUM_17
+#define LCD_D6 GPIO_NUM_18
+#define LCD_D7 GPIO_NUM_19
 
 static void lcd_pulse_enable(void);
 static void lcd_send_nibble(uint8_t nibble);
@@ -37,7 +38,7 @@ void lcd_init(void) {
     vTaskDelay(pdMS_TO_TICKS(1));
     gpio_set_level(LCD_RS, 0);
     lcd_send_nibble(0x02); // 4-bit mode
-    
+
 
     lcd_send_command(0x28); // 2 lines, 5x8 font
     lcd_send_command(0x0C); // Display ON, cursor OFF
